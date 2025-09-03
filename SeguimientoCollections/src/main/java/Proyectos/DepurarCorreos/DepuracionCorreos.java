@@ -26,7 +26,7 @@ public class DepuracionCorreos {
             String dominio = correo.substring(correo.indexOf("@") + 1);
 
             if (dominiosVetados.contains(dominio)) {
-                it.remove(); 
+                it.remove();
             }
         }
 
